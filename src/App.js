@@ -8,8 +8,9 @@ function App() {
   const jsonData= require('./Components/Quote.json'); 
   
   for (let property in jsonData.quotes){
-    const written =  jsonData.quotes[0].quote
-    console.log(written)
+    let written =  jsonData.quotes[property].quote
+    let arr = written.split('.')
+    console.log(arr)
     // for(let quotee in written){
     //   console.log(quotee[1])
     // }
