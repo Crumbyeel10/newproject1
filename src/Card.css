@@ -1,0 +1,14 @@
+
+.card-text{
+    background-color: aqua;
+    width: 600px;
+    height: 220px;
+    border-radius: 18px;
+
+}
+
+.card-text > p {
+
+    margin-left: 40px;
+
+}
