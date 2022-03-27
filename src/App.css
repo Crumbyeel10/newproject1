@@ -1,8 +1,11 @@
 .App {
+  background-color: #3fd7a1;
+  width: 100%;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 19%;
+  
 }
 
 .App-logo {

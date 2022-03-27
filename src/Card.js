@@ -1,10 +1,17 @@
 import "./Card.css";
+import randomHex from "./App.js";
 
- const Card = ({text}) => {
+ const Card = ({text,Autor,func,styleButton,styleTxt}) => {
+
+        // const jsonData= require('./Components/Quote.json');
+        // let quotte = (jsonData.quotes[Math.floor(Math.random() * 103)].quote)
      return(
+
+        
          <div className="card-text">
-             <p>{text}</p>
-             <button></button>
+             <p style={styleTxt}>{text}</p>
+             <label style={styleTxt} > {Autor}</label> <br /> <br />
+             <button  style={styleButton} className="btn-card" onClick = {() => func()}>Next Quote</button>
 
         </div>
      )
