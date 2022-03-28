@@ -1,5 +1,4 @@
 import "./Card.css";
-import randomHex from "./App.js";
 
  const Card = ({text,Autor,func,styleButton,styleTxt}) => {
 
